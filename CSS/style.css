@@ -1,0 +1,16 @@
+.principal {
+    display: flex;
+    width: 100%;
+}
+
+.menu-left {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.container-right {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
