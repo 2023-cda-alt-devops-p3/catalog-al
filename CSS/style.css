@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .principal {
     display: flex;
     width: 100%;
@@ -6,15 +11,34 @@
 .menu-left {
     display: flex;
     flex-direction: column;
+    /* border-right: 2px solid rgb(228, 226, 226); */
     width: 30%;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 .container-right {
     display: flex;
     flex-direction: column;
     width: 70%;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.container-right h4, p {
+    padding: 20px;
 }
 
 .menu-left li {
     list-style: none;
+}
+
+.menu-left h1 {
+    font-size: 30px;
+    color: rgb(64, 110, 163);
+}
+
+.bande {
+    height: 60px;
+    background-color: rgb(64, 110, 163);
 }
