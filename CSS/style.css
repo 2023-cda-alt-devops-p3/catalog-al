@@ -14,3 +14,7 @@
     flex-direction: column;
     width: 70%;
 }
+
+.menu-left li {
+    list-style: none;
+}
