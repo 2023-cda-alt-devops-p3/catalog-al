@@ -49,6 +49,7 @@
 }
 
 .menu-left li {
+    font-size: 17px;
     list-style: none;
     margin-top: 20px;
 }
@@ -66,7 +67,10 @@
 }
 
 .bande-right {
-    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
     background-color: rgb(64, 110, 163);
 }
 
@@ -93,4 +97,9 @@
     margin-left: 15px;
     background-color: rgb(161, 186, 217);
     border-radius: 10px;
+}
+
+.bande-right h5 {
+    font-size: 30px;
+    color: rgb(197, 215, 238);
 }
