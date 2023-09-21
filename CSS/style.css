@@ -152,8 +152,15 @@
     text-align: justify;
 }
 
+.block-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
 .container-right img {
-    margin: 0 auto;
+    margin: 50px auto;
     width: 70%;
 }
 
@@ -163,6 +170,18 @@
 
 .container-right h4 {
     margin-top: 50px;
+    background-color: rgb(233, 238, 244);
+    color: rgb(64, 110, 163);
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.container-right p, li {
+    font-size: 17px;
+    line-height: 25px;
 }
 
 .menu-left a {
@@ -223,6 +242,6 @@
 
 .bande-right h5 {
     font-size: 30px;
-    color: rgb(197, 215, 238);
+    color: rgb(220, 232, 248);
 }
 }
