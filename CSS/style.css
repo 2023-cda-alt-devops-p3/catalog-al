@@ -3,6 +3,128 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.menu-left {
+    display: none;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(64, 110, 163);
+    box-shadow: 1px 12px 14px -4px rgba(135, 135, 135, 0.47);
+  }
+
+  #title {
+    background-color: white;
+    color: rgb(64, 110, 163);
+    font-weight: bolder;
+  }
+  
+  .nav > .nav-header {
+    display: flex;
+  }
+
+  .nav-title h5 {
+    font-size: 15px;
+  }
+  
+  .nav > .nav-header > .nav-title {
+    display: inline-block;
+    font-size: 22px;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+  }
+  
+  .nav > .nav-btn {
+    display: none;
+  }
+  
+  .nav > .nav-links {
+    display: flex;
+    font-size: 18px;
+  }
+  
+  .nav > .nav-links > a {
+    display: inline-block;
+    padding: 13px 10px 13px 10px;
+    text-decoration: none;
+    color: #efefef;
+  }
+  
+  .nav > .nav-links > a:hover {
+    background-color: rgb(64, 110, 163);
+  }
+  
+  .nav > #nav-check {
+    display: none;
+  }
+  
+  @media (max-width:780px) {
+    .nav > .nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+    .nav > .nav-btn > label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 10px;
+    }
+
+    .nav > .nav-btn > label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid #eee;
+    }
+    .nav > .nav-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background-color: rgb(64, 110, 163);
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 50px;
+      left: 0px;
+    }
+    .nav > .nav-links > a {
+      display: block;
+      width: 100%;
+    }
+    .nav > #nav-check:not(:checked) ~ .nav-links {
+      height: 0px;
+    }
+    .nav > #nav-check:checked ~ .nav-links {
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+    }
+
+    .bande-right {
+        display: none;
+    }
+
+    .container-right {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-right img {
+        margin: 0 auto;
+        width: 70%;
+    }
+  }
+
+@media screen and (min-width: 780px) {
+
+.nav {
+    display: none;
+}
+
 .principal {
     display: flex;
     width: 100%;
@@ -102,4 +224,5 @@
 .bande-right h5 {
     font-size: 30px;
     color: rgb(197, 215, 238);
+}
 }
