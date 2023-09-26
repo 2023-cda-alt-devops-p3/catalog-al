@@ -49,5 +49,3 @@
 
 - [x] Features d'animations, transitions, barre de navigation => vérif du site
 - [x] Design cohérent (couleur, forme, police)
-
-![Drag Racing](IMG/mobile.jpg)
