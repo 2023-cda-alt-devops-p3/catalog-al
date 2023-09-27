@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <title>Catalogue diagramme UML & Merise</title>
+  </head>
+  <body>
+    <div class="nav">
+      <input type="checkbox" id="nav-check" />
+      <div class="nav-header"></div>
+      <div class="nav-btn">
+        <label for="nav-check">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+      </div>
+
+      <div class="nav-links">
+        <a href=""  id="title">UML</a>
+        <a href="index.html">Diagramme de cas d'utilisation</a>
+        <a href="Diagramme_de_classe.html" >Diagramme de classe</a>
+        <a href="diagramme_de_sequence.html">Diagramme de séquence</a>
+        <a href="diagramme_detat.html">Diagramme d'état</a>
+        <a href="diagramme_dactivite.html">Diagramme d'activité</a>
+        <a href="diagramme_de_composants.html">Diagramme de composants</a>
+        <a href="" id="title">MERISE</a>
+        <a href="mcd.html">Modèle conceptuel des données (MCD)</a>
+        <a href="mod.html">Modèle organisationnel des données (MOD)</a>
+        <a href="mt.html">Modèle des traitements (MT)</a>
+        <a href="mfd.html">Modèle des flux (MFD)</a>
+        <a href="me.html">Modèle des écrans (MÉ)</a>
+        <a href="mpd.html">Modèle physique des données (MPD)</a>
+      </div>
+  </div>
+  <div class="principal">
+      <div class="menu-left">
+        <img src="IMG/logo.png" alt="">
+              <div class="titre">
+                  <h3>UML</h3>
+                  <div class="bande-titre"></div>
+              </div>
+          <ul>
+              <a href="index.html"><li>Diagramme de cas d'utilisation</li></a>
+              <a href="Diagramme_de_classe.html"><li>Diagramme de classe</li></a>
+              <a href="diagramme_de_sequence.html"><li>Diagramme de séquence</li></a>
+              <a href="diagramme_detat.html"><li>Diagramme d'état</li></a>
+              <a href="diagramme.dactivite.html"><li>Diagramme d'activité</li></a>
+              <a href="diagramme_de_composants"><li>Diagramme de composants</li></a>
+          </ul>
+          <div class="titre">
+              <h3>MERISE</h3>
+              <div class="bande-titre-deux"></div>
+          </div>
+          <ul>
+              <a href="mcd.html"><li>Modèle conceptuel des données (MCD)</li></a>
+              <a href="mod.html"><li>Modèle organisationnel des données (MOD)</li></a>
+              <a href="mt.html"><li>Modèle des traitements (MT)</li></a>
+              <a href="mfd.html"><li>Modèle des flux (MFD)</li></a>
+              <a href="me.html"><li>Modèle des écrans (MÉ)</li></a>
+              <a href="mpd.html"><li>Modèle physique des données (MPD)</li></a>
+          </ul>
+      </div>
+      <div class="container-right">
+        <div class="bande-right">
+          <h5>Diagramme d'activités</h5>
+        </div>
+        <div class="block-right">
+          <h4>Qu'est-ce qu'un diagramme d'activités ?</h4>
+          <p>
+            Le langage de modélisation unifié regroupe plusieurs sous-catégories de diagrammes,
+            notamment les diagrammes de structure, les diagrammes d'interaction et les diagrammes comportementaux.
+            Les diagrammes d’activités, ainsi que les diagrammes de cas d’utilisation et d'états-transitions sont considérés comme 
+            des diagrammes comportementaux, car ils décrivent ce qui doit arriver dans le système modélisé.</br></br>
+            Les parties prenantes ont de nombreux problèmes à gérer ;
+            il est donc important de communiquer avec clarté et concision. Dans une entreprise,
+            les diagrammes d’activités aident les différents intervenants – côté commercial et côté développement – 
+            à collaborer pour comprendre un même procédé et un même comportement. Vous utiliserez un ensemble de symboles spécialisés – 
+            y compris ceux que l'on emploie pour commencer, terminer, fusionner ou recevoir des étapes dans le flux – pour faire un 
+            diagramme d’activités, ce que nous étudierons plus en détail dans ce guide du diagramme d’activités.
+          </p>
+          <iframe src="https://www.youtube.com/embed/BjJYnSQNf04?si=qn6AgV_SDkrpLNCZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <h4>Avantages des diagrammes d'activités</h4>
+          <p>
+            Les diagrammes d'activités présentent plusieurs avantages pour les utilisateurs. Songez à créer un diagramme d’activités pour :</br></br>
+          </p>
+          <ul>
+            <li>
+                Démontrer la logique d'un algorithme
+            </li></br>
+            <li>
+                Décrire les étapes effectuées dans un cas d'utilisation d'UML
+            </li></br>
+            <li>
+                Illustrer un processus métier ou un flux de travail entre les utilisateurs et le système
+            </li></br>
+            <li>
+                Simplifier et améliorer n'importe quel processus en clarifiant les cas d'utilisation complexes
+            </li></br>
+            <li>
+                Modéliser des éléments de l'architecture de logiciels, tels que la méthode, la fonction et l'utilisation
+            </li></br>
+          </ul>
+          <h4>Etapes de la création d'un diagramme d'activités</h4>
+          <ol class="etapes">
+            <li><strong>Identifiez le processus ou le système à modéliser :</strong></li>
+            <p>Identifiez clairement le processus, le système ou le flux de travail que vous souhaitez représenter à l'aide du diagramme d'activités. Comprenez les objectifs, les acteurs et les activités impliquées.</p>
+            <li><strong>Identifiez les activités :</strong></li>
+            <p>Identifiez les activités spécifiques qui composent le processus ou le système. Chaque activité représente une étape ou une action dans le flux de travail. Écrivez une liste de ces activités.</p>
+            <li><strong>Identifiez les décisions :</strong></li>
+            <p>Si le processus ou le système implique des décisions (choix conditionnels), identifiez les points de décision où le flux peut bifurquer en
+             différentes directions en fonction de conditions ou de critères spécifiques.</p>
+            <li><strong>Identifiez les points de début et de fin :</strong></li>
+            <p>Identifiez le point de départ du flux de travail (l'état initial) et le point de fin (l'état final). 
+                Ces points délimitent le début et la fin du processus ou de l'activité.</p>
+            <li><strong>Identifiez les transitions :</strong></li>
+            <p>Identifiez les transitions entre les activités. Les transitions décrivent comment le flux de travail passe d'une 
+                activité à une autre. Utilisez des flèches pour représenter les transitions.</p>
+            <li><strong>Ajoutez des actions :</strong></li>
+            <p>Pour chaque activité, détaillez les actions ou les tâches spécifiques qui doivent être effectuées. Vous pouvez utiliser des symboles 
+                appropriés pour représenter ces actions, comme des rectangles avec des étiquettes.</p>
+            <li><strong>Modélisez les décisions :</strong></li>
+            <p>Pour les points de décision, utilisez des losanges (ou diamants) pour représenter les choix conditionnels. 
+                Les branches du diamant représentent les différentes options basées sur les conditions.</p>
+            <li><strong>Utilisez des notes et des commentaires :</strong></li>
+            <p>Ajoutez des notes ou des commentaires pour expliquer des points particuliers du diagramme d'activités,
+                 clarifier le comportement ou fournir des détails supplémentaires.</p>
+            <li><strong>Créez le diagramme d'activités :</strong></li>
+            <p>Utilisez un logiciel de modélisation UML ou un outil de dessin pour créer le diagramme d'activités. Placez les activités, les transitions, 
+                les décisions, les points de début et de fin, ainsi que d'autres éléments sur le diagramme.</p>
+            <li><strong>Validation et revue :</strong></li>
+            <p>Faites valider le diagramme d'activités avec les parties prenantes du projet pour vous assurer qu'il représente correctement 
+                le flux de travail ou le comportement du processus ou du système.</p>
+            <li><strong>Mise à jour et évolution :</strong></li>
+            <p>Le diagramme d'activités doit évoluer avec le projet. Lorsque de nouveaux besoins ou des changements surviennent, 
+                mettez à jour le diagramme pour refléter ces modifications.</p>
+           </ol>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
