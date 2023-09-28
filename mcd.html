@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="CSS/style.css" />
+        <title>Catalogue diagramme UML & Merise</title>
+    </head>
+    <body>
+        <div class="nav">
+            <input type="checkbox" id="nav-check" />
+            <div class="nav-header"></div>
+            <div class="nav-btn">
+                <label for="nav-check">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+            </div>
+
+            <div class="nav-links">
+                <a href="" id="title">UML</a>
+                <a href="index.html">Diagramme de cas d'utilisation</a>
+                <a href="Diagramme-de-classe.html">Diagramme de classe</a>
+                <a href="diagramme-de-sequence.html">Diagramme de séquence</a>
+                <a href="diagramme-detat.html">Diagramme d'état</a>
+                <a href="diagramme-dactivite.html">Diagramme d'activité</a>
+                <a href="diagramme-de-composants.html"
+                    >Diagramme de composants</a
+                >
+                <a href="" id="title">MERISE</a>
+                <a href="mcd.html">Modèle conceptuel des données (MCD)</a>
+                <a href="mod.html">Modèle organisationnel des données (MOD)</a>
+                <a href="mt.html">Modèle des traitements (MT)</a>
+                <a href="mfd.html">Modèle des flux (MFD)</a>
+                <a href="me.html">Modèle des écrans (MÉ)</a>
+                <a href="mpd.html">Modèle physique des données (MPD)</a>
+            </div>
+        </div>
+        <div class="principal">
+            <div class="menu-left">
+                <img src="IMG/logo.png" alt="" />
+                <div class="titre">
+                    <h3>UML</h3>
+                    <div class="bande-titre"></div>
+                </div>
+                <ul>
+                    <a href="index.html"
+                        ><li>Diagramme de cas d'utilisation</li></a
+                    >
+                    <a href="Diagramme-de-classe.html"
+                        ><li>Diagramme de classe</li></a
+                    >
+                    <a href="diagramme-de-sequence.html"
+                        ><li>Diagramme de séquence</li></a
+                    >
+                    <a href="diagramme-detat.html"><li>Diagramme d'état</li></a>
+                    <a href="diagramme-dactivite.html"
+                        ><li>Diagramme d'activité</li></a
+                    >
+                    <a href="diagramme-de-composants.html"
+                        ><li>Diagramme de composants</li></a
+                    >
+                </ul>
+                <div class="titre">
+                    <h3>MERISE</h3>
+                    <div class="bande-titre-deux"></div>
+                </div>
+                <ul>
+                    <a href="mcd.html"
+                        ><li>Modèle conceptuel des données (MCD)</li></a
+                    >
+                    <a href="mod.html"
+                        ><li>Modèle organisationnel des données (MOD)</li></a
+                    >
+                    <a href="mt.html"><li>Modèle des traitements (MT)</li></a>
+                    <a href="mfd.html"><li>Modèle des flux (MFD)</li></a>
+                    <a href="me.html"><li>Modèle des écrans (MÉ)</li></a>
+                    <a href="mpd.html"
+                        ><li>Modèle physique des données (MPD)</li></a
+                    >
+                </ul>
+            </div>
+            <div class="container-right">
+                <div class="bande-right">
+                    <h5>MCD</h5>
+                </div>
+                <div class="block-right">
+                    <h4>
+                        Qu'est-ce qu'un modèle conceptuel de données (MCD) ?
+                    </h4>
+                    <p>
+                        Un modèle entité-association est un type de logigramme illustrant la façon dont des « entités » telles que des personnes, objets ou concepts sont liées les unes aux autres au sein d’un système. Ils sont généralement utilisés pour concevoir ou déboguer des bases de données relationnelles dans le domaine de l’ingénierie informatique, des systèmes d’information d’entreprise, de l’éducation et de la recherche. Appelés ERD en anglais, ils utilisent une série de symboles prédéfinis tels que des rectangles, losanges et ovales reliés par des lignes pour décrire les interconnexions entre les entités, leurs relations et leurs attributs. Ils imitent une structure grammaticale, où les entités sont des noms et les relations des verbes.<br /><br />
+                    </p>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/EWVz0QKX9rY?si=9lavanZxL5lMkqla" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <h4>Etapes de la création d'un MCD</h4>
+                    <ol class="etapes">
+                        <li>
+                            <strong
+                                >Activer la bibliothèque de formes entité-association
+                                :</strong
+                            >
+                        </li>
+                        <p>
+                            Sélectionnez la bibliothèque Entité-association dans le gestionnaire de formes, où vous pouvez accéder aux symboles entité-association standard, importer et exporter votre travail et vous connecter à votre SGBD ou votre compte Salesforce.
+                        </p>
+                        <li><strong>Déterminer les entités à partir de votre base de données</strong></li>
+                        <p>
+                            Les entités représentent une table dans votre base de données. Selon le thème de votre schéma, votre entité peut être un client, un produit ou même un établissement physique (par exemple une banque).
+                        </p>
+                        <li><strong>Identifier les associations entre les entités</strong></li>
+                        <p>
+                            Dans votre diagramme, indiquez comment vos entités interagissent en les reliant par des lignes et en ajoutant la cardinalité appropriée à chaque extrémité.
+                        </p>
+                        <li><strong>Ajouter tous les attributs d'entité nécessaires</strong></li>
+                        <p>
+                            Les attributs sont les propriétés ou caractéristiques spécifiques d’une entité qui importent dans votre modèle, telles que le nom et le prénom d’une entité client. Ajoutez vos attributs ainsi que les clés primaires et étrangères qui y sont liées.
+                        </p>
+                    </ol>
+                    <img src="IMG/mcd.png" alt="">
+                </div>
+            </div>
+        </div>
+    </body>
+    <footer>
+        <a href="mentions.html">Mentions légales</a>
+        <p>
+            Les sources du contenu proviennent du site
+            <a href="https://www.lucidchart.com/pages/fr">Lucidchart</a> et
+            <a href="https://www.youtube.com/">Youtube</a> pour les vidéos.
+        </p>
+    </footer>
+</html>
