@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="CSS/style.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+/>
     <title>Catalogue diagramme UML & Merise</title>
   </head>
   <body>
@@ -81,7 +85,9 @@
             Vous pouvez voir ces deux éléments à l'œuvre ci-dessous dans un diagramme simple en rapport avec la vie étudiante (aux Etats-Unis, Freshman est l'équivalent de L1, Sophmore L2,
             Junior L3 et Senior L4, même si cela n'existe pas en France). Notre outil de création de diagrammes UML peut vous aider à réaliser n'importe quel diagramme d'état transition personnalisé.</br></br>
           </p>
-          <img src="IMG/diagramme_detat.png" alt="">
+          <a href="IMG/diagramme_detat.png" data-fancybox class="img-click">
+            <img src="IMG/diagramme_detat.png" />
+          </a>
           <h4>Applications des diagrammes d'états-transitions</h4>
           <p>
             Comme la plupart des diagrammes UML, les diagrammes d'états-transitions ont plusieurs usages.
@@ -137,9 +143,12 @@
         </div>
       </div>
     </div>
-  </body>
   <footer>
     <a href="mentions.html">Mentions légales</a>
     <p>Les sources du contenu proviennent du site <a href="https://www.lucidchart.com/pages/fr">Lucidchart</a> et <a href="https://www.youtube.com/">Youtube</a> pour les vidéos.</p>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+<script src="JS/script.js"></script>
+  </body>
+
 </html>

@@ -4,6 +4,10 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="CSS/style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+        />
         <title>Catalogue diagramme UML & Merise</title>
     </head>
     <body>
@@ -171,7 +175,9 @@
                         </li>
                         <br />
                     </ul>
-                    <img src="IMG/Capture d’écran (59).png" alt="" />
+                    <a href="IMG/Capture d’écran (59).png" data-fancybox class="img-click">
+                        <img src="IMG/Capture d’écran (59).png" />
+                      </a>
                     <h4>
                         Etapes de la création d'un diagramme de cas
                         d'utilisation
@@ -262,9 +268,15 @@
                 </div>
             </div>
         </div>
+        <footer>
+            <a href="mentions.html">Mentions légales</a>
+            <p>
+                Les sources du contenu proviennent du site
+                <a href="https://www.lucidchart.com/pages/fr">Lucidchart</a> et
+                <a href="https://www.youtube.com/">Youtube</a> pour les vidéos.
+            </p>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+        <script src="JS/script.js"></script>
     </body>
-    <footer>
-        <a href="mentions.html">Mentions légales</a>
-        <p>Les sources du contenu proviennent du site <a href="https://www.lucidchart.com/pages/fr">Lucidchart</a> et <a href="https://www.youtube.com/">Youtube</a> pour les vidéos.</p>
-    </footer>
 </html>

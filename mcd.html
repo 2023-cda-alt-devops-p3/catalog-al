@@ -4,6 +4,10 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="CSS/style.css" />
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+    />
         <title>Catalogue diagramme UML & Merise</title>
     </head>
     <body>
@@ -117,11 +121,12 @@
                             Les attributs sont les propriétés ou caractéristiques spécifiques d’une entité qui importent dans votre modèle, telles que le nom et le prénom d’une entité client. Ajoutez vos attributs ainsi que les clés primaires et étrangères qui y sont liées.
                         </p>
                     </ol>
-                    <img src="IMG/mcd.png" alt="">
+                    <a href="IMG/mcd.png" data-fancybox class="img-click">
+                        <img src="IMG/mcd.png" />
+                      </a>
                 </div>
             </div>
         </div>
-    </body>
     <footer>
         <a href="mentions.html">Mentions légales</a>
         <p>
@@ -130,4 +135,8 @@
             <a href="https://www.youtube.com/">Youtube</a> pour les vidéos.
         </p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="JS/script.js"></script>
+    </body>
+
 </html>
